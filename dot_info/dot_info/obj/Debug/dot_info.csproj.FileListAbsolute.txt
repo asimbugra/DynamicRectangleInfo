@@ -1,0 +1,10 @@
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\bin\Debug\dot_info.exe.config
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\bin\Debug\dot_info.exe
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\bin\Debug\dot_info.pdb
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\obj\Debug\dot_info.csproj.AssemblyReference.cache
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\obj\Debug\dot_info.Properties.Resources.resources
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\obj\Debug\dot_info.csproj.GenerateResource.cache
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\obj\Debug\dot_info.csproj.CoreCompileInputs.cache
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\obj\Debug\dot_info.exe
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\obj\Debug\dot_info.pdb
+C:\Users\bugra.altunsoy\source\repos\dot_info\dot_info\obj\Debug\dot_info.Form1.resources
