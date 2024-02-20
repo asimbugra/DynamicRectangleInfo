@@ -1,10 +1,3 @@
-<html>
-
-<head>
-    <title>Dynamic Rectangle Tooltip Project</title>
-</head>
-
-<body>
 
     <h1>Dynamic Rectangle Tooltip Project</h1>
 
@@ -52,6 +45,4 @@
         <li>Projede kullanılan <code>ToolTip</code> sınıfı ile fare imleci karelerin üzerine geldiğinde bilgi gösterimi sağlanır.</li>
     </ul>
 
-</body>
 
-</html>
