@@ -1,48 +1,39 @@
+# Dinamik Kare Bilgi Penceresi Projesi
 
-    <h1>Dynamic Rectangle Tooltip Project</h1>
+Bu proje, bir Windows Forms uygulaması içinde rastgele yerleştirilmiş kareleri içermekte ve fare imleci bu karelerin üzerine geldiğinde ilgili bilgileri göstermektedir.
 
-    <p>Bu proje, bir Windows Forms uygulaması içinde rastgele yerleştirilmiş kareleri içermekte ve fare imleci bu karelerin üzerine geldiğinde ilgili bilgileri göstermektedir.</p>
+## Proje Çalıştırma Adımları
 
-    <h2>Proje Çalıştırma Adımları</h2>
+1. Bu projeyi bilgisayarınıza klonlayın veya ZIP olarak indirin.
 
-    <ol>
-        <li>Bu projeyi bilgisayarınıza klonlayın veya ZIP olarak indirin.</li>
+    ```bash
+    git clone https://github.com/asimbugra/RandomRectangleTooltip.git
+    ```
 
-        <pre>
-            git clone https://github.com/asimbugra/RandomRectangleTooltip.git
-        </pre>
+    veya
 
-        veya
+    [Buradan ZIP olarak indirin](https://github.com/asimbugra/RandomRectangleTooltip/archive/main.zip)
 
-        [Buradan ZIP olarak indirin](https://github.com/asimbugra/RandomRectangleTooltip/archive/main.zip)
+2. Visual Studio veya başka bir C# IDE kullanarak projeyi açın.
 
-        <li>Visual Studio veya başka bir C# IDE kullanarak projeyi açın.</li>
+3. Projeyi oluşturan ana form olan `Form1.cs` dosyasını açın.
 
-        <li>Projenin ana formu olan <code>Form1.cs</code> dosyasını açın.</li>
+4. `button1_Click` metodunu inceleyin ve isterseniz kareleri oluşturan döngüyü değiştirin. Varsayılan olarak 10 adet kare oluşturulmaktadır.
 
-        <li><code>button1_Click</code> metodunu inceleyin ve isterseniz kareleri oluşturan döngüyü değiştirin. Varsayılan olarak 10 adet kare oluşturulmaktadır.</li>
+5. Projeyi derleyin ve çalıştırın.
 
-        <li>Projenizi derleyin ve çalıştırın.</li>
-    </ol>
+## Kullanım
 
-    <h2>Kullanım</h2>
+- Uygulama çalıştığında, "Kareler Oluştur" butonuna tıklayarak rastgele yerleştirilmiş kareleri ekleyebilirsiniz.
 
-    <ul>
-        <li>Uygulama çalıştığında, "Kareler Oluştur" butonuna tıklayarak rastgele yerleştirilmiş kareleri ekleyebilirsiniz.</li>
+- Fare imleci bir karenin üzerine geldiğinde, karenin konumu hakkında bir bilgi penceresi görüntülenir.
 
-        <li>Fare imleci bir karenin üzerine geldiğinde, karenin konumu hakkında bir bilgi penceresi görüntülenir.</li>
+- Karelerin üzerinden ayrıldığınızda bilgi penceresi gizlenir.
 
-        <li>Karelerin üzerinden ayrıldığınızda bilgi penceresi gizlenir.</li>
-    </ul>
+## Ek Bilgiler
 
-    <h2>Ek Bilgiler</h2>
+- Bu proje, Windows Forms uygulamalarının temel özelliklerini kullanarak oluşturulmuştur.
 
-    <ul>
-        <li>Bu proje, Windows Forms uygulamalarının temel özelliklerini kullanarak oluşturulmuştur.</li>
+- Karelerin özellikleri ve davranışı `CizimYap` ve `pictureBox1_MouseMove` metodlarında tanımlanmıştır.
 
-        <li>Karelerin özellikleri ve davranışı <code>CizimYap</code> ve <code>pictureBox1_MouseMove</code> metodlarında tanımlanmıştır.</li>
-
-        <li>Projede kullanılan <code>ToolTip</code> sınıfı ile fare imleci karelerin üzerine geldiğinde bilgi gösterimi sağlanır.</li>
-    </ul>
-
-
+- Projede kullanılan `ToolTip` sınıfı ile fare imleci karelerin üzerine geldiğinde bilgi gösterimi sağlanır.
